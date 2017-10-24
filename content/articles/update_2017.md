@@ -7,6 +7,34 @@ Category: IT-Ethik
 HeaderImage: /images/update_2017.png
 Summary: Ich habe meiner Internetseite ein Update unterzogen.
 
-Ich habe meiner Internetseite ein Update unterzogen. Sie basiert jetzt auf reinem HTML und CSS, verwendet kein Javascript mehr, keine Links zu Google-Analytics und keinen Canvas-Blödsinn. Das hat für dich den Vorteil, dass du aufgrund meiner Seite keinem möglichen Tracking ausgesetzt bist und für mich, dass ich kein Wordpress verwenden muss.
+Ich habe meiner Internetseite ein Update unterzogen. Sie basiert jetzt auf reinem HTML und CSS, verwendet kein Javascript mehr, keine Links zu Google-Analytics und keinen Canvas-Blödsinn. Das hat für dich den Vorteil, dass du aufgrund meiner Seite keinem möglichen Tracking ausgesetzt bist und die Seite schneller läd, und für mich, dass ich kein Wordpress verwenden muss.
 
-Statt Wordpress, verwende ich zur Erzeugung dieser Internetseiten ein Programm namens [Pelican](http://getpelican.com/), das aus Markdown-Dateien eine statische Internetseite macht. Ich habe [diese Anleitung](http://mathamy.com/migrating-to-github-pages-using-pelican.html) und [dieses Styling](https://github.com/art1fa/minimalX) verwendet, etwas modifiziert, und den Quellcode auf [GitHub]() hinterlegt.
+Statt Wordpress, verwende ich zur Erzeugung dieser Internetseiten ein Programm namens [Pelican](http://getpelican.com/), das aus Markdown-Dateien eine statische Internetseite macht. Ich habe [diese Anleitung](http://mathamy.com/migrating-to-github-pages-using-pelican.html) und [dieses Styling](https://github.com/art1fa/minimalX) verwendet, etwas modifiziert, und den Quellcode auf GitHub hinterlegt.
+
+## Details
+Ich habe die Arbeitsverzeichnisse auf meinem GitHub-Account *DorKeinath* gespeichert unter *xcosx.github.io*, also in *https://github.com/DorKeinath/xcosx.github.io*.
+Die HTML-Dateien liegen in meinem GitHub-Account *xcosx* im Verzeichnis *xcosx.github.io*, Also in https://github.com/xcosx/xcosx.github.io.git.
+
+### Workflow
+Für's Erstellen und Posten eines neuen Artikels verwende ich die folgenden Befehle.
+
+```bash
+# Voransicht
+source bin/activate
+sudo make devserver
+firefox localhost:8000
+
+# Inhalt veröffentlichen
+sudo pelican content -s publishconf.py
+cd output
+git add --all
+git commit -m "update"
+git push origin master
+xcosx
+
+# Quellcode auf GitHub speichern
+git add --all
+git commit -m "update"
+git push origin master
+dorkeinath
+```
