@@ -1,7 +1,7 @@
 Title: Zahlensysteme
 Date: 2014-04-30 16:40
 Category: MGB
-Tags: Binärzahlen, Online-Rechner, Schriftliche Division, Teilen, Zahlensysteme
+Tags: Mathematik 
 Slug: zahlensysteme
 Status: published
 HeaderImage: /images/zahlensysteme.jpg

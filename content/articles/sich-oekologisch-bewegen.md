@@ -1,7 +1,7 @@
 Title: Sich ökologisch bewegen
 Date: 2014-04-30 13:53
 Category: Ethik
-Tags: Fernbus, Ökologie, ökologischer Fußabdruck, Umwelt
+Tags: Nachhaltigkeit
 Slug: sich-oekologisch-bewegen
 Status: published
 HeaderImage: /images/sich-oekologisch-bewegen.jpg

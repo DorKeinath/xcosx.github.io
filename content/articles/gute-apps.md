@@ -1,7 +1,7 @@
 Title: Gute Apps
 Date: 2016-07-20 20:53
 Category: IT-Ethik
-Tags: Android, App, Freiheit, Kill, Podcast, Sicherheit, WhatsApp
+Tags: Apps, Kill, Datensicherheit
 Slug: gute-apps
 Status: draft
 HeaderImage: /images/gute-apps.png

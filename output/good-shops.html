@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>xcosx.github.io - ehemals xcosx.de</title>
+    <title>xcosx - DorKeinath</title>
 
-    <link href="https://xcosx.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="xcosx.github.io - ehemals xcosx.de Full Atom Feed" />
-    <link href="https://xcosx.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="xcosx.github.io - ehemals xcosx.de Full RSS Feed" />
-
+    <link href="https://xcosx.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="xcosx - DorKeinath Full Atom Feed" />
+    <link href="https://xcosx.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="xcosx - DorKeinath Full RSS Feed" />
+    <!-- Favicon linked here because STATIC_PATHS and EXTRA_PATH_METADATA doesn't work-->
+    <!-- <link rel="shortcut icon" href="https://xcosx.github.io/images/favicon.ico" type="image/x-icon" /> -->
+    <link rel="shortcut icon" href="https://xcosx.github.io/images/favicon.ico?v=2" />
     <!-- CSS -->
     <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold|Reenie+Beanie"> -->
     <link rel="stylesheet" type="text/css" href="https://xcosx.github.io/theme/css/w3.css">
@@ -17,7 +19,7 @@
 
     <!-- JavaScript -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
-    <script src="https://xcosx.github.io/theme/js/jqcloud.min.js"></script>
+    <!-- <script src="https://xcosx.github.io/theme/js/jqcloud.min.js"></script> -->
 
      <!-- Meta tags -->
     <meta charset="utf-8" />
@@ -25,27 +27,19 @@
     <meta name="description" content="xcosx" />
 
     <meta name="tags" content="Bio" />
-    <meta name="tags" content="Bücher" />
     <meta name="tags" content="Fair Trade" />
-    <meta name="tags" content="Good Shops" />
-    <meta name="tags" content="Klamotten" />
-    <meta name="tags" content="Kleidung" />
     <meta name="tags" content="Nachhaltigkeit" />
-    <meta name="tags" content="Outdoor" />
-    <meta name="tags" content="Schokolade" />
-    <meta name="tags" content="Schuhe" />
-    <meta name="tags" content="Wandern" />
-    <meta property="og:site_name" content="xcosx.github.io - ehemals xcosx.de">
-    <meta property="og:title" content="Good Shops - xcosx.github.io - ehemals xcosx.de" />
-    <meta property="og:description" content="<p>Wo man mit gutem Gewissen einkaufen kann</p>" />
+    <meta property="og:site_name" content="xcosx - DorKeinath">
+    <meta property="og:title" content="Good Shops - xcosx - DorKeinath" />
+    <meta property="og:description" content="<p>Wo man mit gutem Gewissen einkaufen kann.</p>" />
     <meta property="og:image" content="https://xcosx.github.io/images/good-shops.jpg">
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://xcosx.github.io/good-shops.html" />
     <meta property="og:locale" content="de_DE" />
     <meta property="og:locale:alternate" content="en_US" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Good Shops - xcosx.github.io - ehemals xcosx.de">
-    <meta name="twitter:description" content="<p>Wo man mit gutem Gewissen einkaufen kann</p>">
+    <meta name="twitter:title" content="Good Shops - xcosx - DorKeinath">
+    <meta name="twitter:description" content="<p>Wo man mit gutem Gewissen einkaufen kann.</p>">
     <meta name="twitter:image" content="https://xcosx.github.io/images/good-shops.jpg">
 </head>
 <body>
@@ -60,65 +54,42 @@
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="https://xcosx.github.io/category/it-ethik.html">IT-Ethik</a></li>
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="https://xcosx.github.io/category/mgb.html">MGB</a></li>
           <!-- Suche mit MetaGer -->
-          <form class="w3-bottombar w3-border-white w3-hover-border-red" action="https://metager.de//meta/meta.ger3" method="get" accept-charset="UTF-8">
+          <!-- <form class="w3-bottombar w3-border-white w3-hover-border-red" action="https://metager.de//meta/meta.ger3" method="get" accept-charset="UTF-8"> -->
+          <!-- <form class="w3-bottombar w3-border-white w3-hover-border-red" action="https://searx.me" method="get" accept-charset="UTF-8"> -->
+          <form action="https://searx.me" method="get" accept-charset="UTF-8">
               <style type="text/css" scoped>
-              input[type=text] {
-                  width: 53px;
-                  box-sizing: border-box;
-                  border: 0px solid #fff;
-                  background-color: #fff;
-                  /*Picture*/
-                  background-image: url('/images/searchicon5.png');
-                  background-repeat: no-repeat;
-                  background-position-x: 50%;
-                  background-position-y: 50%;
-                  /*Picture end*/
-                  /*Für den Text "Suche mit MetaGer"*/
-                  font-size: 14pt;
-                  padding-left: 51px;
-                  /*color: #fff;*/
-                  -webkit-transition: width 0.4s ease-in-out;
-                  transition: width 0.4s ease-in-out;
-                }
-                input[type=text]:focus {
-                  width: 100%;
-                  background-position-x: 95%;
-                  padding-left: 15px;
-                  background-color: rgb(241, 241, 241);
-                  color: #868282;
-                }
-                /*input[type=text]:before {
-                    font-family: 'Fontawesome';
-                    color: red;
-                    position: relative;
-                    left: -5px;
-                    content: "\f007";
-                }
-                .search-bar {
-                  position: relative;
-                }
-
-                .search-bar .icon {
-                  position: absolute;
-                  top: 47%;
-                  left: 10px;
-                  transform: translateY(-50%);
-                }*/
-
-                .search-bar .input-text {
-                  /*height: 20px;*/
-                  /*padding: 8px 8px 8px 35px;*/
-                }
+                  input[type=text] {
+                      width: 53px;
+                      box-sizing: border-box;
+                      border: 0px solid #fff;
+                      background-color: #fff;
+                      /*Picture*/
+                      background-image: url('/images/searchicon8.png');
+                      background-size: 18px;
+                      background-repeat: no-repeat;
+                      background-position-x: 50%;
+                      background-position-y: 50%;
+                      /*Picture end*/
+                      /*Für den Text bzw. Platzhalter */
+                      font-size: 14pt;
+                      padding-left: 51px;
+                      -webkit-transition: width 0.4s ease-in-out;
+                      transition: width 0.4s ease-in-out;
+                    }
+                    input[type=text]:focus {
+                      width: 100%;
+                      background-position-x: 95%;
+                      padding-left: 15px;
+                      background-color: rgb(241, 241, 241);
+                      color: #868282;
+                      background-size:0px;
+                    }
+                    /*.search-bar .input-text {
+                    }*/
               </style>
-              <!-- <div class="search-bar"> -->
-                  <!-- <i class="icon fa fa-search"></i> -->
-              <input class="input-text" type="text" name="eingabe" placeholder="Suche mit Metager" required>
-              <!-- </div> -->
-               <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
-              </input>
-              <input type="hidden" name="encoding" value="utf8"></input><input type="hidden" name="site" value="xcosx.de">
-              <input type="hidden" name="lang" value="all">
-              <input type="hidden" name="wdgt-version" value="1">
+              <input type="text" name="q" placeholder="Suche mit Searxes" required>
+              <!-- site:xcosx.github.io -->
+              <input type="hidden" name="a" value="site:xcosx.github.io">
           </form>
           <!-- Suche Ende -->
         </ul>
@@ -139,34 +110,10 @@
           <a href="https://xcosx.github.io/tag/bio.html" title="Alle Posts zum Thema Bio">#Bio</a>
         </span>
         <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/bucher.html" title="Alle Posts zum Thema Bücher">#Bücher</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
           <a href="https://xcosx.github.io/tag/fair-trade.html" title="Alle Posts zum Thema Fair Trade">#Fair Trade</a>
         </span>
         <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/good-shops.html" title="Alle Posts zum Thema Good Shops">#Good Shops</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/klamotten.html" title="Alle Posts zum Thema Klamotten">#Klamotten</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/kleidung.html" title="Alle Posts zum Thema Kleidung">#Kleidung</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
           <a href="https://xcosx.github.io/tag/nachhaltigkeit.html" title="Alle Posts zum Thema Nachhaltigkeit">#Nachhaltigkeit</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/outdoor.html" title="Alle Posts zum Thema Outdoor">#Outdoor</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/schokolade.html" title="Alle Posts zum Thema Schokolade">#Schokolade</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/schuhe.html" title="Alle Posts zum Thema Schuhe">#Schuhe</a>
-        </span>
-        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
-          <a href="https://xcosx.github.io/tag/wandern.html" title="Alle Posts zum Thema Wandern">#Wandern</a>
         </span>
       </div>
     </div>
@@ -177,19 +124,12 @@
   </div>
   <div class="col-main w3-container">
     <main id="article-content">
-      <h2>Wo man mit gutem Gewissen einkaufen kann</h2>
-<!--more-->
-
+      <h2>Wo man mit gutem Gewissen einkaufen kann.</h2>
 <p>Bevor's zu den empfehlenswerten Shops geht, zwei Bemerkungen</p>
 <ol>
-<li>Am ökologischsten ist es, wenn man gar keine Klamotten oder Schuhe
-    einkauft. Ergo ist es sinnvoll, gute Qualität zu kaufen.</li>
-<li>Im September 2014 hat Entwicklungsminister Gerd Müller zu einem
-    Bündnis für Nachhaltigkeit und Fairness aufgerufen. Die meisten
-    großen Unternehmen wie Adidas oder Tchibo haben dabei eine
-    Blockadehaltung eingenommen. Hier findet man die <a href="http://www.bmz.de/de/zentrales_downloadarchiv/Presse/Textilbuendnis/Textilbuendnis_Beitrittserklaerungen.pdf">Liste derjenigen,
-    die dem Bündnis beigetreten
-    sind</a>.</li>
+<li>Am ökologischsten ist es, wenn man gar keine Klamotten, Schuhe oder sonst etwas einkauft. Ergo ist es sinnvoll, gute Qualität zu kaufen.</li>
+<li>Im September 2014 hat Entwicklungsminister Gerd Müller zu einem Bündnis für Nachhaltigkeit und Fairness aufgerufen. Die meisten großen Unternehmen wie Adidas oder Tchibo haben dabei eine Blockadehaltung eingenommen. Hier findet man die <a href="http://www.bmz.de/de/zentrales_downloadarchiv/Presse/Textilbuendnis/Textilbuendnis_Beitrittserklaerungen.pdf">Liste derjenigen, die dem Bündnis beigetreten sind</a>.</li>
+<li>Leider gibt es m.E. kein sinnvolles Siegel. Auch Bio ist nicht immer gut, weil es z.B. nicht regional sein muss (Schau dir mal den Begriff <a href="https://de.wikipedia.org/wiki/Slow_Food">Slow Food</a> an). Bio bedeutet leider auch nicht nachhaltig; was man schon meistens an der Verpackung sieht. (Frau Schubert lebt quasi <a href="https://frauschubertbloggt.wordpress.com/category/plastikfrei-einkaufen/">pastikfrei</a>!) Ist die Verpackung schlecht, wird wiederum oft das Produkt zu schnell schlecht. Man muss also wohl Aristoteles' Mesoteslehre folgen und immer die goldene Mitte wählen und dabei seinen Verstand benutzen.</li>
 </ol>
 <h3>Kleidung</h3>
 <ul>
@@ -205,7 +145,7 @@
     Planet</a></li>
 <li><a href="http://www.toms.com">toms</a></li>
 </ul>
-<h4>Womit ich keine gute Erfahrung gemacht habe</h4>
+<h4>Womit ich <em>keine</em> gute Erfahrung gemacht habe</h4>
 <ul>
 <li>Earth positive (nicht nachhaltig, da sehr schnell kaputt)</li>
 </ul>
@@ -243,10 +183,17 @@
 </ul>
 <h3>Schokolade</h3>
 <ul>
-<li>Meine derzeitige Lieblingsschokolade: <a href="https://www.bioschokolade.de/produktsortiment/gourmet-tafeln/vivani-bio-schokolade-dunkle-vollmilch/a-713/">Vivani 50
-    %</a>.
-    Gibt's bei Alnatura und zurzeit ab 11 Tafeln billiger bei
-    <a href="http://www.biovio.de/Naturkost/Suesses/Schokolade/Vivani-Dunkle-Vollmilch-50--Cacao-80-g.html">biovio.de</a>.</li>
+<li><a href="https://www.bioschokolade.de/produktsortiment/gourmet-tafeln/vivani-bio-schokolade-dunkle-vollmilch/a-713/">Vivani </a>.</li>
+<li><a href="http://www.biovio.de/Naturkost/Suesses/Schokolade/Vivani-Dunkle-Vollmilch-50--Cacao-80-g.html">biovio.de</a>.</li>
+</ul>
+<h3>Elektronik</h3>
+<ul>
+<li><a href="https://www.vireo.de/">Vireo.de</a></li>
+<li><a href="https://www.memolife.de/Smartphone-Fairphone-2-Slim-Android-6.html?ono=E5408">memolife</a></li>
+</ul>
+<h3>Haushalt und Büro</h3>
+<ul>
+<li><a href="https://www.memolife.de">memolife</a></li>
 </ul>
 <h3>Zum Stöbern</h3>
 <p>Die folgende Liste zu Öko-Mode habe ich nicht selbst zusammen gestellt
@@ -293,7 +240,7 @@ und nicht ausprobiert:</p>
                 </a>
                 <div style="margin-left: 20px; margin-top: 15px;">
                     <a href="https://xcosx.github.io/authors.html#ephraim-keinath"><span id="author-name" class="w3-hover-text-dark-grey">Ephraim Keinath</span></a>
-                    <p id="author-story" style="max-width: 500px;">DorKeinath hat Mathematik und Philosophie studiert und beschäftigt sich auch mit Informatik.</p>
+                    <p id="author-story" style="max-width: 500px;">DorKeinath hat Mathematik und Philosophie studiert und beschäftigt sich (zu) viel mit Informatik.</p>
                 </div>
             </div>
         </div>
@@ -320,10 +267,10 @@ und nicht ausprobiert:</p>
       <div>
         <h6>Top Tags</h6>
         <ul>
-          <li class=""><a href="https://xcosx.github.io/tag/android.html"> #Android (6)</a></li>
-          <li class=""><a href="https://xcosx.github.io/tag/app.html"> #App (5)</a></li>
+          <li class=""><a href="https://xcosx.github.io/tag/datensicherheit.html"> #Datensicherheit (18)</a></li>
           <li class=""><a href="https://xcosx.github.io/tag/kill.html"> #Kill (5)</a></li>
-          <li class=""><a href="https://xcosx.github.io/tag/good-shops.html"> #Good Shops (3)</a></li>
+          <li class=""><a href="https://xcosx.github.io/tag/nachhaltigkeit.html"> #Nachhaltigkeit (5)</a></li>
+          <li class=""><a href="https://xcosx.github.io/tag/mathematik.html"> #Mathematik (4)</a></li>
         </ul>
       </div>
     </div>
@@ -361,7 +308,7 @@ und nicht ausprobiert:</p>
         </ul>
     </div>
     <div id="copyright" class="w3-center w3-small w3-text-grey w3-padding-48">
-        <span>Made with ❤️ by EK | Powered by <a href="http://getpelican.com" target="_blank"><u>Pelican</u></a>, <a href="https://github.com/art1fa/minimalX" target="_blank"><u>minimalX</u></a>, <a href="https://openclipart.org/" target="_blank"><u>openclipart</u></a> and <a href="https://metager.de/" target="_blank"><u>MetaGer</u></a>
+        <span>Made with ❤️ by EK | Powered by <a href="http://getpelican.com"><u>Pelican</u></a>, <a href="https://github.com/art1fa/minimalX"><u>minimalX</u></a>, <a href="https://openclipart.org/"><u>openclipart</u></a> and <a href="https://metager.de/"><u>MetaGer</u></a>
         </span>
     </div>
   </footer>

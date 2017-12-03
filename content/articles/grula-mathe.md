@@ -1,7 +1,7 @@
 Title: Mathematische Grundlagen
 Date: 2015-01-17 19:06
 Category: MGB
-Tags: Mathematik, MGB, Online-Rechner, Zahlensysteme
+Tags: Mathematik
 Slug: grula-mathe
 Status: published
 HeaderImage: /images/grula-mathe.jpg

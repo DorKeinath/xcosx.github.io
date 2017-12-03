@@ -1,7 +1,7 @@
 Title: Regionale Produkte in Karlsruhe und Umgebung
 Date: 2014-02-04 23:08
 Category: Ethik
-Tags: Bio, Essen, Ethik, Regionale Produkte
+Tags: Bio, Fair Trade, Nachhaltigkeit
 Slug: regionale-produkte-in-karlsruhe-und-umgebung
 Status: draft
 HeaderImage: /images/regionale-produkte-in-karlsruhe-und-umgebung.png

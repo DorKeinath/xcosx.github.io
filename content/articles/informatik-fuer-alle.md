@@ -2,6 +2,7 @@ Title: Informatik für alle
 Date: 2016-10-31 18:40
 Category: IT-Ethik
 Slug: informatik-fuer-alle
+Tags: Datensicherheit
 Status: published
 HeaderImage: /images/informatik-fuer-alle.jpg
 Summary: Grundkenntnisse in Informatik sind eine Bedingung der Möglichkeit von Mündigkeit.

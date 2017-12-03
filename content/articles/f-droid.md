@@ -2,6 +2,7 @@ Title: F-Droid
 Date: 2015-10-27 18:16
 Category: IT-Ethik
 Slug: f-droid
+Tags:Datensicherheit
 HeaderImage: /images/f-droid.png
 Summary: Alternative zu Googles Playstore.<!--more-->
 

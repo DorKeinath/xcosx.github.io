@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>xcosx.de</title>
+    <title>xcosx - DorKeinath</title>
 
-
+    <!-- Favicon linked here because STATIC_PATHS and EXTRA_PATH_METADATA doesn't work-->
+    <!-- <link rel="shortcut icon" href="http://localhost:8000/images/favicon.ico" type="image/x-icon" /> -->
+    <link rel="shortcut icon" href="http://localhost:8000/images/favicon.ico?v=2" />
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold|Reenie+Beanie">
+    <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold|Reenie+Beanie"> -->
     <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/w3.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/style.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/jqcloud.css">
@@ -14,17 +16,17 @@
     <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/pygments-highlight-github.css">
 
     <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="http://localhost:8000/theme/js/jqcloud.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <!-- <script src="http://localhost:8000/theme/js/jqcloud.min.js"></script> -->
 
      <!-- Meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Meine Gedanken über Ethik und IT" />
+    <meta name="description" content="xcosx" />
 
-    <meta property="og:site_name" content="xcosx.de">
-    <meta property="og:title" content="Meine Gedanken über Ethik und IT" />
-    <meta property="og:description" content="Hier schreibt DorKeinath" />
+    <meta property="og:site_name" content="xcosx - DorKeinath">
+    <meta property="og:title" content="xcosx" />
+    <meta property="og:description" content="Hier schreibt DorKeinath über Ethik und Informatik" />
     <meta property="og:image" itemprop="image" content="http://localhost:8000/authors/ephraim-keinath.png">
     <meta property="og:type" content="website" />
 </head>
@@ -39,6 +41,45 @@
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="http://localhost:8000/category/it.html">IT</a></li>
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="http://localhost:8000/category/it-ethik.html">IT-Ethik</a></li>
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="http://localhost:8000/category/mgb.html">MGB</a></li>
+          <!-- Suche mit MetaGer -->
+          <!-- <form class="w3-bottombar w3-border-white w3-hover-border-red" action="https://metager.de//meta/meta.ger3" method="get" accept-charset="UTF-8"> -->
+          <!-- <form class="w3-bottombar w3-border-white w3-hover-border-red" action="https://searx.me" method="get" accept-charset="UTF-8"> -->
+          <form action="https://searx.me" method="get" accept-charset="UTF-8">
+              <style type="text/css" scoped>
+                  input[type=text] {
+                      width: 53px;
+                      box-sizing: border-box;
+                      border: 0px solid #fff;
+                      background-color: #fff;
+                      /*Picture*/
+                      background-image: url('/images/searchicon8.png');
+                      background-size: 18px;
+                      background-repeat: no-repeat;
+                      background-position-x: 50%;
+                      background-position-y: 50%;
+                      /*Picture end*/
+                      /*Für den Text bzw. Platzhalter */
+                      font-size: 14pt;
+                      padding-left: 51px;
+                      -webkit-transition: width 0.4s ease-in-out;
+                      transition: width 0.4s ease-in-out;
+                    }
+                    input[type=text]:focus {
+                      width: 100%;
+                      background-position-x: 95%;
+                      padding-left: 15px;
+                      background-color: rgb(241, 241, 241);
+                      color: #868282;
+                      background-size:0px;
+                    }
+                    /*.search-bar .input-text {
+                    }*/
+              </style>
+              <input type="text" name="q" placeholder="Suche mit Searxes" required>
+              <!-- site:xcosx.github.io -->
+              <input type="hidden" name="a" value="site:xcosx.github.io">
+          </form>
+          <!-- Suche Ende -->
         </ul>
       </nav>
     </header>
@@ -55,19 +96,28 @@
 <article class="w3-container w3-card-2 w3-white col-main">
   <header>
   <div class="headerimage-card">
-    <a href="http://localhost:8000/feed-2.html"><img src="/images/rss.png" style="width: 100%;"></img></a>
+    <a href="http://localhost:8000/gegen-die-vds-unterschreiben.html"><img src="" style="width: 100%;"></img></a>
   </div>
-  <h1><a href="http://localhost:8000/feed-2.html">Feed</a></h1>
+  <h1><a href="http://localhost:8000/gegen-die-vds-unterschreiben.html">Gegen die VDS unterschreiben!</a></h1>
   <div class="post-info">
     <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
-      <span>Gepostet am <time datetime="2014-02-05T14:48:00+01:00">Mi, 05. Februar 2014</time> in <i><a href="http://localhost:8000/category/allgemeines.html" title="Alle Artikel der Kategorie Allgemeines">Allgemeines</a></i>
+      <span>Gepostet am <time datetime="2017-12-02T10:27:00+01:00">Sa, 02. Dezember 2017</time> in <i><a href="http://localhost:8000/category/allgemeines.html" title="Alle Artikel der Kategorie Allgemeines">Allgemeines</a></i>
       </span>
     </div>
   </div>
 </header>
-  <div class="entry-content"><p>Um die Beiträge dieser Internetseite zu abonnieren, rufen Sie bitte die folgende Seite auf oder fügen Sie den Link in Ihrer Feed-App hinzu.</p></div>
+  <div class="entry-content"><!-- Status: draft -->
+
+<p>Status: published
+Tags: Datensicherheit
+Category: IT-Ethik
+HeaderImage: /images/fight-surveillance.png
+Summary: Hier unterschreiben ist Pflicht!</p>
+<p>Das Gesetz zur Vorratsdatenspeicherung (VDS) ist so ziemlich der schlechteste Gesetzesentwurf, den die GroKo jemals eingebracht hat. Das Bundesverfassungsgericht und das EU-Parlament haben es als grundrechtswidrig beurteilt. Die CDU und die Hälfte der SPD wollen es immer wieder einführen.</p>
+<p><a href="https://weact.campact.de/petitions/weg-mit-dem-gesetz-zur-vorratsdatenspeicherung">Hier kannst du eine Petition gegen die Vorratsdatenspeicherung unterschreiben.</a>.</p>
+<p>Auf das Argument <strong>Ich habe doch nichts …</strong></p></div>
   <footer>
-  <a class="w3-btn w3-red w3-right w3-margin" href="http://localhost:8000/feed-2.html">Weiterlesen &#10093;</a>
+  <a class="w3-btn w3-red w3-right w3-margin" href="http://localhost:8000/gegen-die-vds-unterschreiben.html">Weiterlesen &#10093;</a>
   </footer>
 </article>
 <br>
@@ -92,17 +142,16 @@
       <div>
         <h6>Top Tags</h6>
         <ul>
-          <!-- Print the four most popular tags, sorted automatically with the setting TAG_CLOUD_SORTING = 'size' in pelicanconf.py -->
-          <li class=""><a href="http://localhost:8000/tag/android.html"> #Android (6)</a></li>
-          <li class=""><a href="http://localhost:8000/tag/app.html"> #App (5)</a></li>
+          <li class=""><a href="http://localhost:8000/tag/datensicherheit.html"> #Datensicherheit (17)</a></li>
           <li class=""><a href="http://localhost:8000/tag/kill.html"> #Kill (5)</a></li>
-          <li class=""><a href="http://localhost:8000/tag/good-shops.html"> #Good Shops (3)</a></li>
+          <li class=""><a href="http://localhost:8000/tag/nachhaltigkeit.html"> #Nachhaltigkeit (5)</a></li>
+          <li class=""><a href="http://localhost:8000/tag/mathematik.html"> #Mathematik (4)</a></li>
         </ul>
       </div>
     </div>
     <div class="blogroll-block w3-col l3 m3 s6">
       <div>
-          <h6><a href="http://localhost:8000/authors.html">Autoren</a></h6>
+          <h6><a href="http://localhost:8000/authors.html">Autor</a></h6>
           <ul>
               <!--  -->
               <li class=""><a href="http://localhost:8000/authors.html">Ephraim Keinath</a></li>
@@ -113,27 +162,33 @@
           </ul>
       </div>
     </div>
+<!--
       <div class="blogroll-block w3-col l3 m3 s6">
           <div>
               <h6>Social Media</h6>
               <ul>
-                  <li><a class="sc-conversations" href="https://conversations.im" target="_blank"><span style="text-transform: capitalize;">conversations</span> <i class="fa fa-conversations"></i></a></li>
-                  <li><a class="sc-singal" href="https://signal.org/" target="_blank"><span style="text-transform: capitalize;">singal</span> <i class="fa fa-singal"></i></a></li>
+                  <li><a class="sc-commenting-o" href="/pages/kontakt.html" target="_blank"><span style="text-transform: capitalize;">commenting-o</span> <i class="fa fa-commenting-o"></i></a></li>
+                  <li><a class="sc-rss" href="feed.html" target="_blank"><span style="text-transform: capitalize;">rss</span> <i class="fa fa-rss"></i></a></li>
                   <li><a class="sc-github" href="https://github.com/DorKeinath" target="_blank"><span style="text-transform: capitalize;">github</span> <i class="fa fa-github"></i></a></li>
                   <li class="empty"></li>
               </ul>
           </div>
       </div>
+-->
     </div>
     <div id="contact">
         <ul>
-            <li><a href="http://localhost:8000/pages/impressum.html">Impressum | Datenschutz</a></li>
+            <li><a href="http://localhost:8000/pages/kontakt.html">Kontakt</a></li>
+            <li><a href="http://localhost:8000/pages/impressum.html">Impressum</a></li>
         </ul>
     </div>
     <div id="copyright" class="w3-center w3-small w3-text-grey w3-padding-48">
-        <span>Made with ❤️ by FK | Powered by <a href="http://getpelican.com" target="_blank"><u>Pelican</u></a> and <a href="https://github.com/art1fa/minimalX" target="_blank"><u>minimalX</u></a>        </span>
+        <span>Made with ❤️ by EK | Powered by <a href="http://getpelican.com"><u>Pelican</u></a>, <a href="https://github.com/art1fa/minimalX"><u>minimalX</u></a>, <a href="https://openclipart.org/"><u>openclipart</u></a> and <a href="https://metager.de/"><u>MetaGer</u></a>
+        </span>
     </div>
   </footer>
-<script src="http://localhost:8000/theme/js/shariff.min.js"></script>
+<!--  -->
+<!--  -->
+<!-- <script src="http://localhost:8000/theme/js/shariff.min.js"></script> -->
 </body>
 </html>

@@ -13,10 +13,12 @@ from pelicanconf import *
 SITEURL = 'https://xcosx.github.io'
 RELATIVE_URLS = False
 
+FEED_DOMAIN = SITEURL
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = False
+RSS_FEED_SUMMARY_ONLY = False
 
 #THEME = "/home/fabi/blog/themes/minimalX"
 

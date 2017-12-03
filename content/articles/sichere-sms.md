@@ -1,7 +1,7 @@
 Title: Sichere SMS
 Date: 2014-02-27 19:23
 Category: IT-Ethik
-Tags: Android, App, Freiheit, iOS, Sicherheit, WhatsApp
+Tags: Apps, Datensicherheit
 Slug: sichere-sms
 Status: published
 HeaderImage: /images/sichere-sms.jpg

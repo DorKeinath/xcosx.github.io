@@ -2,6 +2,7 @@ Title: Gefahren für die Daten
 Date: 2015-10-17 19:33
 Category: IT-Ethik
 Slug: gefahren-fuer-die-daten
+Tags: Datensicherheit
 Status: published
 HeaderImage: /images/gefahren-fuer-die-daten.png
 Summary: Kleine Auswahl an Artikel, die über die Sicherheitslage von Daten

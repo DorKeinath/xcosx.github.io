@@ -1,7 +1,7 @@
 Title: WADI
 Date: 2014-02-10 20:13
 Category: MGB
-Tags: Abitur, Mathematik, WADI
+Tags: Abitur, Mathematik
 Slug: wadi
 Status: published
 HeaderImage: /images/wadi.png

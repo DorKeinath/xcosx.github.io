@@ -1,6 +1,6 @@
 Title: Conversations
 Date: 2016-07-20 20:27
-Tags: Android, App, XMPP, Chat, Kommunikation
+Tags: Apps, Datensicherheit
 Slug: conversations
 Category: IT-Ethik
 HeaderImage: /images/conversations.png

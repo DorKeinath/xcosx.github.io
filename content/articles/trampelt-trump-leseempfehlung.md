@@ -1,6 +1,6 @@
 Title: Trampelt Trump? Leseempfehlung!
 Date: 2016-12-05 22:33
-Tags: Politik, Big Data
+Tags: Politik, Big Data, Datensicherheit
 Category: IT-Ethik
 Slug: trampelt-trump-leseempfehlung
 Status: published

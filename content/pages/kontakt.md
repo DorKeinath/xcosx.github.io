@@ -3,9 +3,10 @@ Date: 2017-10-21 10:00
 Tags: Kontakt, Mail, Conversations, Signal, RSS
 Slug: kontakt
 Status: published
-Category:
-HeaderImage: /images/kontakt.png
 Summary: So kann man mit mir kommunizieren.
+
+![Kontakt-Bild](/images/kontakt.png)
+{.adjust-width}
 
 Wenn du Kontakt mit mir aufnehmen möchtest, kannst du mir eine klassische **E-Mail** an *blog at xcosx.de* schreiben. Bis zur offiziellen politischen Vorratsdatenspeicherung antworte ich darauf sogar vermutlich.
 
@@ -26,4 +27,4 @@ Sehr gerne kannst du auch an einem meiner Projekte auf [GitHub](https://github.c
 
 # RSS
 
-Die Artikel dieser Internetseite bekommst du auch als [Feed](rss.md).
+Die Artikel dieser Internetseite bekommst du auch als [Feed](../feed.html).

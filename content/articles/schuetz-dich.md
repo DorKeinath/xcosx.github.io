@@ -1,7 +1,7 @@
 Title: Schütz dich!
 Date: 2016-03-14 19:51
 Category: IT-Ethik
-Tags: Android, App, Jabber, PC, Sicherheit, TextSecure, WhatsApp, XMPP
+Tags: Apps, Datensicherheit
 Slug: schuetz-dich
 Status: published
 HeaderImage: /images/schuetz-dich.png

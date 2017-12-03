@@ -1,7 +1,7 @@
 Title: Kill: Browser-Addons
 Date: 2016-11-07 23:29
 Category: IT-Ethik
-Tags: Kill
+Tags: Kill, Datensicherheit
 Slug: kill-browser-addons
 HeaderImage: /images/kill.png
 Status: published

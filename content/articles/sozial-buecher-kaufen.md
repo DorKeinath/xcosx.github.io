@@ -1,7 +1,7 @@
 Title: Sozial Bücher kaufen
 Date: 2015-06-30 21:53
 Category: Ethik
-Tags: Bücher, Good Shops
+Tags: Bücher, Good Shops, Fair Trade, Nachhaltigkeit
 Slug: sozial-buecher-kaufen
 Status: published
 HeaderImage: /images/sozial-buecher-kaufen.jpg

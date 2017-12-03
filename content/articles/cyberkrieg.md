@@ -2,6 +2,7 @@ Title: Cyberkrieg
 Date: 2015-10-18 17:40
 Category: IT-Ethik
 Slug: cyberkrieg
+Tags: Datensicherheit
 Status: published
 HeaderImage: /images/cyberkrieg.png
 Summary: Links zum Thema Cyberkrieg

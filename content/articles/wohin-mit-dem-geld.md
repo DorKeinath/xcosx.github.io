@@ -1,7 +1,7 @@
 Title: Wohin mit dem Geld?
 Date: 2016-07-30 12:39
 Category: Ethik
-Tags: Banken, Geld, Nachhaltigkeit
+Tags: Nachhaltigkeit, Fair Trade
 Slug: wohin-mit-dem-geld
 Status: draft
 HeaderImage: /images/wohin-mit-dem-geld.jpg

@@ -1,7 +1,7 @@
 Title: Kill: Google Play
 Date: 2016-10-06 15:47
 Category: IT-Ethik
-Tags: Kill
+Tags: Kill, Datensicherheit
 Slug: kill-google-play
 Status: published
 HeaderImage: /images/kill.png

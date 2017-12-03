@@ -8,7 +8,7 @@ Summary: Mein PGP-Schlüssel
 
 Meine öffentlichen Schlüssel
 ============================
-Meine öffentlichen PGP-keys sind hier hinterlegt: [pool.sks-keyservers.net](pool.sks-keyservers.net)
+Meine öffentlichen PGP-keys sind hier hinterlegt: pool.sks-keyservers.net
 
 Nicht vergessen, mich anzurufen, um den Fingerprint zu kontrollieren :-)
 

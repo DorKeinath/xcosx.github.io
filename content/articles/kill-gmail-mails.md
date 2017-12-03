@@ -1,7 +1,7 @@
 Title: Kill: Gmail-Mails
 Date: 2016-10-22 16:15
 Category: IT-Ethik
-Tags: Kill, E-Mail
+Tags: Kill, Datensicherheit
 Slug: kill-gmail-mails
 Status: published
 HeaderImage: /images/kill.png

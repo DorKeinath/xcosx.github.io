@@ -1,7 +1,7 @@
 Title: Kill: Deinen Netzbetreiber
 Date: 2016-10-06 16:12
 Category: IT-Ethik
-Tags: Kill
+Tags: Kill, Datensicherheit
 Slug: kill-deinen-netzbetreiber
 Status: published
 HeaderImage: /images/kill.png

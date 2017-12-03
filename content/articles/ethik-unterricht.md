@@ -19,5 +19,4 @@ hier:<!--more-->
 
 ## Präsentationen
 
--   [Slides Version 2016](http://xcosx.de/mgb/slides.php)
--   [Slides Version 2017](http://xcosx.de/mgb/ethik-slides.php)
+-   [Slides](https://dorkeinath.github.io/)

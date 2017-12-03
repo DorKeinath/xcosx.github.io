@@ -2,6 +2,7 @@ Title: Gajim mit OMEMO
 Date: 2016-12-05 20:33
 Category: IT
 Slug: gajim-mit-omemo
+Tags: Datensicherheit, Apps
 Status: published
 HeaderImage: /images/gajim-mit-omemo.png
 Summary: Bei Gajim das OMEMO-Plugin zum Laufen zu bringen ist nicht ganz trivial. Hier ist eine Anleitung.

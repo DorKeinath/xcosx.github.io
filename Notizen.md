@@ -18,8 +18,9 @@ git push origin master
 dorkeinath
 
 
-# Git Cheatsheet
+# Git
 https://ansas-meyer.de/programmierung/cheatsheet-git-branching/
+https://git-scm.com/docs/git-credential-cache
 
 # Inhalt der alten haccess auf xcosx.de
 
@@ -36,3 +37,7 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 ```
+
+# Fotos
+In Gimp das png auf 900x300 ändern: Bild/Leinwandgröße
+Dann evtl: Ebene/Ebene skalieren auf Höhe 270
