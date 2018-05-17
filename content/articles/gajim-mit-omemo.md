@@ -25,18 +25,20 @@ Aktuellstes Gajim installieren
 sudo add-apt-repository 'deb ftp://ftp.gajim.org/debian unstable main'
 sudo apt-get update
 sudo apt-get upgrade
-```    
+sudo apt-get install gajim-nightly
+```
 
+<!-- # https://dev.gajim.org/gajim/gajim/issues/9118 -->
 
 Zum Überprüfen ob die Installation erfolgreich war
 ```bash
 dpkg -l gajim
-```  
+```
 python-axolotl unter Ubuntu 16.04 LTS
 
 ```bash
 sudo apt install python-axolotl python-protobuf
-```  
+```
 
 python-axolotl unter Ubuntu 14.04.5 TLS
 
@@ -49,11 +51,11 @@ sudo -H python get-pip.py
 sudo -H pip install cryptography --upgrade
 sudo -H pip install python-axolotl
 sudo -H pip install protobuf==2.6.1 python-axolotl
-```  
+```
 
 Dann mit gajim das Plugin OMEMO
 
 ```bash
 gajim -l gajim.plugin_system.omemo=DEBUG
-```  
+```
 und weiter mit Klicken. Nach dem Installieren das **Aktivieren** nicht vergessen.

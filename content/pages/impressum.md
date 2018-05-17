@@ -6,40 +6,19 @@ Impressum
 Redaktionsanschrift
 -------------------
 
-Ephraim Keinath  
-Karlsruhe  
-Deutschland  
-E-Mail: blog{at}xcosx{punkt}de  
+Ephraim Keinath
+Karlsruhe
+Deutschland
+E-Mail: blog{at}xcosx{punkt}de
 PGP-Schlüssel siehe pool.sks-keyservers.net
-Internet: www.xcosx.de bzw. xcosx.github.io
+Internetseite: xcosx.github.io
 
 Chefredakteur, Herausgeber
 --------------------------
 
-und inhaltlich Verantwortlicher gemäß  
-§ 55 Abs. 2 Rundfunkstaatsvertrag (RfStV)  
+und inhaltlich Verantwortlicher gemäß
+§ 55 Abs. 2 Rundfunkstaatsvertrag (RfStV)
 Ephraim Keinath
-
-Adressverarbeitung
-------------------
-
-Die auf dieser Webpräsenz angegebenen Kontaktinformationen sind
-ausschließlich für die Kontaktaufnahme bestimmt. Eine anderweitige
-Nutzung dieser Kontaktinformationen z. B. zur Aufnahme in Newslettern
-oder für sonstige Werbezwecke ist untersagt.
-
-Quellenangaben für die verwendeten Bilder und Grafiken
-------------------------------------------------------
-
-So gut wie alle Grafiken sind von http://openclipart.org/
-
-Hueman-Theme – http://alxmedia.se/
-
-Unterstütze www.xcosx.de
-------------------------
-
-Über Geld oder Chips freue ich mich, evtl. darf ich's aber nicht
-annehmen.
 
 Abmahnungsrechtlicher Hinweis
 -----------------------------
@@ -95,3 +74,7 @@ Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
 Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
 entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
 wir derartige Inhalte umgehend entfernen.
+
+Die Kompilierung zu den HTML-Seiten erfolgt mit [Pelican](http://getpelican.com/). Ich verwende [dieses Styling](https://github.com/art1fa/minimalX).
+
+Die Grafiken sind von http://openclipart.org/

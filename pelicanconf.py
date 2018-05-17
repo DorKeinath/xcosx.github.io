@@ -54,7 +54,7 @@ SOCIAL = (('commenting-o', '/pages/kontakt.html'),
 #         ('Über mich', 'http://python.org/'),
 #         ('Impressum', 'http://jinja.pocoo.org/'))
 
-DEFAULT_PAGINATION = 15
+DEFAULT_PAGINATION = 20
 
 SUMMARY_MAX_LENGTH = 70
 

@@ -25,6 +25,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="xcosx" />
+    <meta name="referrer" content="no-referrer">
 
     <meta name="tags" content="Datensicherheit" />
     <meta property="og:site_name" content="xcosx - DorKeinath">
@@ -51,28 +52,33 @@
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="https://xcosx.github.io/category/it.html">IT</a></li>
           <li class="w3-bottombar w3-border-white w3-hover-border-red" style="font-weight: bold;"><a href="https://xcosx.github.io/category/it-ethik.html">IT-Ethik</a></li>
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="https://xcosx.github.io/category/mgb.html">MGB</a></li>
-          <!-- Suche mit MetaGer -->
-          <!-- <form class="w3-bottombar w3-border-white w3-hover-border-red" action="https://metager.de//meta/meta.ger3" method="get" accept-charset="UTF-8"> -->
-          <!-- <form class="w3-bottombar w3-border-white w3-hover-border-red" action="https://searx.me" method="get" accept-charset="UTF-8"> -->
-          <form action="https://searx.me" method="get" accept-charset="UTF-8">
+          <!-- SUCHE Beginn-->
+          <li class="w3-bottombar w3-border-white w3-hover-border-red">
+          <form method="GET" action="http://www.qwant.com" id="form" onsubmit="addSiteSearch()">
               <style type="text/css" scoped>
                   input[type=text] {
+                      position: relative;
+                      bottom: 3px;
+                      /*width: 100%;*/
                       width: 53px;
-                      box-sizing: border-box;
+                      margin-top: -7px;
+                      /*box-sizing: border-box;*/
                       border: 0px solid #fff;
+                      border-bottom: 10px;
                       background-color: #fff;
                       /*Picture*/
                       background-image: url('/images/searchicon8.png');
                       background-size: 18px;
                       background-repeat: no-repeat;
                       background-position-x: 50%;
-                      background-position-y: 50%;
+                      background-position-y: 40%;
                       /*Picture end*/
                       /*Für den Text bzw. Platzhalter */
                       font-size: 14pt;
                       padding-left: 51px;
-                      -webkit-transition: width 0.4s ease-in-out;
-                      transition: width 0.4s ease-in-out;
+                      -webkit-transition: width 2s ease;
+                      transition: width 2s ease;
+                      /*transform: scale(2,0);*/
                     }
                     input[type=text]:focus {
                       width: 100%;
@@ -81,15 +87,38 @@
                       background-color: rgb(241, 241, 241);
                       color: #868282;
                       background-size:0px;
+                      -webkit-transition: width 0s ease;
+                      transition: width 0s ease;
                     }
                     /*.search-bar .input-text {
                     }*/
               </style>
-              <input type="text" name="q" placeholder="Suche mit Searxes" required>
-              <!-- site:xcosx.github.io -->
-              <input type="hidden" name="a" value="site:xcosx.github.io">
+              <div align="left">
+              <table bgcolor="#FFFFFF">
+               <tbody>
+               <tr>
+               <td>
+              <!-- <a href="http://www.qwant.com"> <img src="https://www.qwant.com/img/logo/q-48.png" border="0" alt="Qwant" align="absmiddle"></a> -->
+              <input type="text" name="q" id="query" size="31" maxlength="255" value="" placeholder="Suche mit Qwant">
+              <input type="hidden" name="l" value="fr">
+              <!-- <input type="submit" name="btnG" value="go" > -->
+              <!-- <i class="fas fa-search"></i> -->
+              </td>
+              </tr>
+              </tbody>
+              </table>
+              </div>
           </form>
-          <!-- Suche Ende -->
+          <script type="text/javascript">
+          function encodeHTML(s) {
+          return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+          }
+          function addSiteSearch() {
+          document.getElementById('query').value = encodeHTML(document.getElementById('query').value) + " site:https://xcosx.github.io/";
+          }
+          </script>
+          <!-- SUCHE Ende -->
+          </li>
         </ul>
       </nav>
     </header>
@@ -100,7 +129,7 @@
     <h1>Gegen die VDS unterschreiben!</h1>
     <div class="post-info">
       <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
-        <span>Gepostet am <time datetime="2017-12-02T10:27:00+01:00">Sa, 02. Dezember 2017</time> in <i><a href="https://xcosx.github.io/category/it-ethik.html" title="Alle Artikel der Kategorie IT-Ethik">IT-Ethik</a></i>
+        <span>Gepostet am <time datetime="2017-12-07T21:52:00+01:00">Do, 07. Dezember 2017</time> in <i><a href="https://xcosx.github.io/category/it-ethik.html" title="Alle Artikel der Kategorie IT-Ethik">IT-Ethik</a></i>
         </span>
       </div>
       <div id="article-tags">
@@ -116,20 +145,23 @@
   </div>
   <div class="col-main w3-container">
     <main id="article-content">
-      <p>Das Gesetz zur Vorratsdatenspeicherung (VDS) ist so ziemlich der schlechteste Gesetzesentwurf, den die GroKo jemals eingebracht hat. Das Bundesverfassungsgericht und das EU-Parlament haben es als grundrechtswidrig beurteilt. Die CDU und die Hälfte der SPD wollen es immer wieder einführen.</p>
+      <p>Das Gesetz zur Vorratsdatenspeicherung (VDS) ist so ziemlich der schlechteste Gesetzesentwurf, den die GroKo jemals eingebracht hat. Das Bundesverfassungsgericht und das EU-Parlament haben es als grundrechtswidrig beurteilt. Die CDU und die Hälfte der SPD wollen es immer wieder einführen. Die Jamaika-Koalition war auf dem richtigen Pfad, aber mit der sich anbahnenden GroKo ist leider wieder alles offen.</p>
 <p><a href="https://weact.campact.de/petitions/weg-mit-dem-gesetz-zur-vorratsdatenspeicherung">Hier kannst du eine Petition gegen die Vorratsdatenspeicherung unterschreiben.</a>.</p>
 <p class="content-highlight">Ich habe doch nichts zu verbergen</p>
 <p>Auf das Argument <strong>Ich habe doch nichts zu verbergen.</strong> will ich hier kurz eingehen:</p>
 <p>Auch wenn du als Muster-Bürger weit davon entfernt bist, einen Menschen umzubringen, so ist das Gebot "Du sollst nicht töten." doch wichtig. Auch wenn es dir egal wäre, wenn dich deine Regierung überwacht, so ist es doch wichtig, dass unser Grundgesetz die Informationsfreiheit festlegt und unser Staat einen Bürger nicht grundlos verdächtigt. Das Grundgesetz zu schützen ist wichtig, auch wenn der Aspekt dich gerade nicht tangiert.</p>
-<p>Außerdem hast du etwas zu verbergen. Strenge einfach deine Fantasie ein bisschen an.</p>
+<p>Außerdem hast du etwas zu verbergen. Strenge einfach deine Fantasie ein bisschen an. Wenn dir nichts einfällt, was man mit BigData so machen kann, dann lies zum Beispiel hier, dass <a href="https://netzpolitik.org/2017/studie-ethnie-einkommen-und-wahlverhalten-anhand-von-autos-auf-google-maps-einschaetzen/">bereits durch eine Analyse der Autos über Google Streetview auf das Wahlverhalten geschlossen werden kann.</a></p>
 <p>Übrigens ist die politische VDS zwar schlimmer, aber die wirtschaftliche ist auch schlecht, man spricht dabei von <strong>Tracking</strong>. Auch hier ist das Argument <strong>Ich habe doch nichts zu verbergen.</strong> irrelevant und falsch. Wäre es egal, wenn die Welt nur von einer Hand voll Monopolen beherrscht werden würde? Der Standard-Bürger spielt durch sein Bequemlichkeitsargument Google die Macht in die Hände. Schon jetzt erfährt Google auf über 80 % der Internetseiten, ob du du diese gerade anschaust und macht damit übel viel Geld. Dass Google danach strebt, sich politisch einzumischen konnte man bei der letzten Bundestagswahl sehen und im Nachrichtensektor will Google sich auch breit machen. Das Ignoranzargument ist also alles andere als schlüssig.</p>
 <p>Weitere Argumente gegen die VDS sind</p>
 <ul>
 <li>bei der Petition</li>
+<li>auf der <a href="http://wiki.vorratsdatenspeicherung.de/BT-Petition_gegen_VDS">Wiki-Seite</a> des AK Vorrat</li>
+<li>im <a href="https://netzpolitik.org/2017/diese-woche-minister-der-eu-mitgliedstaaten-beraten-ueber-vorratsdatenspeicherung/">aktuellen Artikel auf netzpolitik.org</a></li>
 <li><a href="https://www.kuketz-blog.de/tipps-gegen-die-vorratsdatenspeicherung/">bei Kuketz</a></li>
 <li><a href="https://dorkeinath.github.io/slides_html/ethik-slides/VDS.html">in meiner Präsentation gegen die VDS</a></li>
 </ul>
 <p>zu finden.</p>
+<!-- Ach ja, und wer denkt, dass die Daten wirklich sicher gespeichert werden können, der sollte sich mal anschauen, welche Server in der Vergangenheit bereits ihre Daten verloren haben oder gehackt wurden. -->
     </main>
     <br>
     <footer>
@@ -206,10 +238,11 @@
         <ul>
             <li><a href="https://xcosx.github.io/pages/kontakt.html">Kontakt</a></li>
 <li><a href="https://xcosx.github.io/feeds/all.rss.xml">RSS <i class="fa fa-rss" aria-hidden="true"></i></a></li>            <li><a href="https://xcosx.github.io/pages/impressum.html">Impressum</a></li>
+            <li><a href="https://xcosx.github.io/pages/datenschutzhinweis.html">Datenschutzhinweis</a></li>
         </ul>
     </div>
     <div id="copyright" class="w3-center w3-small w3-text-grey w3-padding-48">
-        <span>Made with ❤️ by EK | Powered by <a href="http://getpelican.com"><u>Pelican</u></a>, <a href="https://github.com/art1fa/minimalX"><u>minimalX</u></a>, <a href="https://openclipart.org/"><u>openclipart</u></a> and <a href="https://metager.de/"><u>MetaGer</u></a>
+        <span>Made with ❤️ by EK | Powered by <a href="http://getpelican.com"><u>Pelican</u></a>, <a href="https://github.com/art1fa/minimalX"><u>minimalX</u></a> and <a href="https://openclipart.org/"><u>openclipart</u></a>.
         </span>
     </div>
   </footer>
